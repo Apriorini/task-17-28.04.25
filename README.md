@@ -44,7 +44,7 @@ class Auto
         float metersPerSecond = speedauto * 1000 / 3600;
         float distance = metersPerSecond * seconds;
         startautoX += distance;
-        Console.WriteLine($"Перемещено на основе скорости: X={startautoX}, Y={startautoY}, Пройденное расстояние: {distance:F2} м за {seconds} с.");
+        Console.WriteLine($"Перемещение: X={startautoX}, Y={startautoY}, Пройденное расстояние: {distance:F2} м за {seconds} с.");
     }
 }
 class Program
